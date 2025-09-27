@@ -1,0 +1,17 @@
+{
+  "name": "webjolt",
+  "version": "1.0.0",
+  "description": "A project to learn the workings of frontend frameworks",
+  "private": true,
+  "workspaces": [
+	  "packages/runtime"
+	],
+  "main": "index.js",
+  "scripts": {
+		"serve:examples": "pnpx http-server . -o ./examples/"
+  },
+  "keywords": [],
+  "author": "jlebl",
+  "license": "ISC",
+  "packageManager": "pnpm@10.17.0"
+}

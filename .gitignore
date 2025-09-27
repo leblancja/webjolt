@@ -1,4 +1,5 @@
-.npm-global
-.pnpm-global
-.direnv
+.npm-global/
+.pnpm-global/
+.direnv/
+node_modules/
 
