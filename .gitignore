@@ -2,4 +2,5 @@
 .pnpm-global/
 .direnv/
 node_modules/
+dist/
 
