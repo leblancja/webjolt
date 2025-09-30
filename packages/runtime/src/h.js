@@ -53,3 +53,4 @@ function MessageComponent({ level, message }) {
 		h('p', {}, [message])
 	])
 }
+
