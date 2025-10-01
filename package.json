@@ -4,14 +4,17 @@
   "description": "A project to learn the workings of frontend frameworks",
   "private": true,
   "workspaces": [
-	  "packages/runtime"
-	],
+    "packages/runtime"
+  ],
   "main": "index.js",
   "scripts": {
-		"serve:examples": "pnpx http-server . -o ./examples/"
+    "serve:examples": "pnpx http-server . -o ./examples/"
   },
   "keywords": [],
   "author": "jlebl",
   "license": "ISC",
-  "packageManager": "pnpm@10.17.0"
+  "packageManager": "pnpm@10.17.0",
+  "dependencies": {
+    "webjolt": "1.0.1"
+  }
 }
