@@ -32,11 +32,6 @@ function mapTextNodes(children) {
 	)
 }
 
-export function withoutNulls(arr) {
-	return arr.filter((item) => item != null)
-}
-
-
 function lipsum(num) {
 	const text = `Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
