@@ -6,11 +6,7 @@ settings:
 
 importers:
 
-  .:
-    dependencies:
-      webjolt:
-        specifier: 1.0.1
-        version: 1.0.1
+  .: {}
 
   packages/runtime:
     devDependencies:
@@ -1671,9 +1667,6 @@ packages:
   webidl-conversions@8.0.0:
     resolution: {integrity: sha512-n4W4YFyz5JzOfQeA8oN7dUYpR+MBP3PIUsn2jLjWXwK5ASUzt0Jc/A5sAUZoCYFJRGF0FBKJ+1JjN43rNdsQzA==}
     engines: {node: '>=20'}
-
-  webjolt@1.0.1:
-    resolution: {integrity: sha512-zntpQBUPrPY4kup8El8pTyr9CRdjsyldOhtbCsuXZXUFPS5Ap1OW3MKRj1v5prw7eq3DqUgAz3sDf5s8XCfYsg==}
 
   whatwg-encoding@3.1.1:
     resolution: {integrity: sha512-6qN4hJdMwfYBtE3YBTTHhoeuUrDBPZmbQaxWAqSALV/MeEnR5z1xd8UKud2RAkFoPkmB+hli1TZSnyi84xz1vQ==}
@@ -3442,8 +3435,6 @@ snapshots:
       xml-name-validator: 5.0.0
 
   webidl-conversions@8.0.0: {}
-
-  webjolt@1.0.1: {}
 
   whatwg-encoding@3.1.1:
     dependencies:

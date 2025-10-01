@@ -6,7 +6,7 @@
 				h,
 				hString,
 				hFragment,
-			} from 'webjolt'
+			} from 'https://unpkg.com/webjolt@1'
 
 			const state = { count: 0 }
 			const reducers = {
@@ -16,7 +16,7 @@
 			
 			function View(state, emit) {
 				return hFragment([
-					h('button', { on: { click: () => emit('sub') } }, ['-'])
+					h('button', { on: { click: () => emit('sub') } }, ['-']),
 					h('span', {}, [hString(state.count)]),
 					h('button', { on: { click: () => emit('add') } }, ['+']),
 				])

@@ -13,8 +13,5 @@
   "keywords": [],
   "author": "jlebl",
   "license": "ISC",
-  "packageManager": "pnpm@10.17.0",
-  "dependencies": {
-    "webjolt": "1.0.1"
-  }
+  "packageManager": "pnpm@10.17.0"
 }
